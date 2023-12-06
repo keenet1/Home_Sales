@@ -33,15 +33,15 @@ Three SQL queries were executed using the same question to determine the run tim
 - A query performed on a cached copy of the original data set
 - A query performed on the original data set after parquet formatting was applied and the data were partitioned on date_built
 
-The question used for the comparison was: "What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places."
+The question used for the comparison was: "What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places."   
 
-**Query performed on the original data set**
-![Original Data Query](https://github.com/keenet1/Home_Sales/assets/137319054/35d96116-acc7-41cb-a1b3-306215388f93)
+**Query performed on the original data set**   
+![Original Data Query](https://github.com/keenet1/Home_Sales/assets/137319054/35d96116-acc7-41cb-a1b3-306215388f93)   
 
-**Query performed on a cached copy of the original data set**
-![Cached Data Query](https://github.com/keenet1/Home_Sales/assets/137319054/2e405655-ced5-4d26-b910-0c3b47461eb8)
+**Query performed on a cached copy of the original data set**   
+![Cached Data Query](https://github.com/keenet1/Home_Sales/assets/137319054/2e405655-ced5-4d26-b910-0c3b47461eb8)   
 
-**Query performed on the original data set after parquet formatting was applied and the data were partitioned on date_built**
-![Parquet Data Query](https://github.com/keenet1/Home_Sales/assets/137319054/8d90ec53-e982-4214-88e7-c84b9a9fd90d)
+**Query performed on the original data set after parquet formatting was applied and the data were partitioned on date_built**   
+![Parquet Data Query](https://github.com/keenet1/Home_Sales/assets/137319054/8d90ec53-e982-4214-88e7-c84b9a9fd90d)   
 
 As can be seen from the run times displayed under each table, the parquet runtime of 0.771 seconds was slightly longer than the cached runtime of 0.597 seconds but shorter than the original-uncached runtime of 1.059 seconds.
