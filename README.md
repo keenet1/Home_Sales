@@ -25,7 +25,7 @@ From the table above, it can be seen that the average price for a three-bedroom,
 
 ![Image for 5_3](https://github.com/keenet1/Home_Sales/assets/137319054/7c498e1e-3b02-4fee-8077-c5e00baea7b7)
 
-From the table above, it can be seen that the average price for a two-floor home with 2,000 or more square feet with three bedrooms and three bathrooms (for the years shown) is approximately $292,867.27. Over the time period shown, the average price ranged from a minimum of 276553.81 in 2011 to a maximum of 307539.97 in 2012.   
+From the table above, it can be seen that the average price for a two-floor home with 2,000 or more square feet with three bedrooms and three bathrooms (for the years shown) is approximately $292,867.27. Over the time period shown, the average price ranged from a minimum of $276,553.81 in 2011 to a maximum of $307,539.97 in 2012.   
 
 ## Query Time Comparisons
 Three SparkSQL queries were executed using the same question to determine the run times for:
