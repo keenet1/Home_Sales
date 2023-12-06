@@ -45,3 +45,22 @@ The question used for the comparison was: "What is the "view" rating for homes c
 ![Parquet Data Query](https://github.com/keenet1/Home_Sales/assets/137319054/8d90ec53-e982-4214-88e7-c84b9a9fd90d)   
 
 As can be seen from the run times displayed under each table, the parquet runtime of 0.771 seconds was slightly longer than the cached runtime of 0.597 seconds but shorter than the original-uncached runtime of 1.059 seconds.
+
+## Summary and Conclusion:
+Overall, the query run times were shorter for the queries that were executed on the cached data as well as on the parquet formatted data (as compared to the query run time that was performed on the original data set). Generally, caching the data allows the query faster access to the data (as the data is stored in memory) and as such, the overall query process can be executed more quickly. On the other hand, Parquet formatting of the data (along with partitioning) essentially allows the query to be performed on only the most relevant data, which also allows for the query to be executed more quickly as well.
+
+Resources:  
+Web Resources:
+https://spark.apache.org/docs/latest/api/python/index.html#:~:text=PySpark%20is%20the%20Python%20API,for%20interactively%20analyzing%20your%20data.   
+https://arrow.apache.org/docs/python/parquet.html   
+https://fastparquet.readthedocs.io/en/latest/   
+
+Some coding I looked at for inspiration:  
+https://github.com/Hamim-Hussain/Home_Sales   
+
+Acknowledgements:  
+I wish to thank my teaching staff:  
+Hunter Hollis  
+Sam Espe  
+Randy Sendek
+
